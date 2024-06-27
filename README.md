@@ -1,6 +1,7 @@
 # PyGame_GenAI
 
-First - Experimental Verion! 
+First - Experimental Version!
+Produces a final_pygame.py file - missing few final code composing steps and cleanups still
 
 Welcome to the PyGame_GenAI project! This repository provides a framework to automatically generate code for Pygame projects using the dspygen library with Groq AI. The goal is to streamline the creation of Pygame environments and games by leveraging AI-driven code generation.
 
