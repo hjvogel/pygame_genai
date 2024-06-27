@@ -1,5 +1,5 @@
 # skip the final generation on a run
-final_pygame.py
+final_game.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
