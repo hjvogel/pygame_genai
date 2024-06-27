@@ -43,7 +43,7 @@ To run the script, execute the following command:
 python src/dspygen/rm/dspy_dev_steps.py
 ```
 
-The script will prompt you to provide task descriptions and any required RFCs (Request for Comments) for error handling and refining the code generation process.
+The script will prompt you to provide task descriptions and any required RFCs (Request for Change) for error handling and refining the code generation process.
 
 ### Example Classes
 
@@ -71,6 +71,13 @@ Once all steps are successfully processed, the script compiles the generated cod
 ### Main Function
 
 The `main` function initializes the environment, defines the steps, and processes each step to generate the final game code.
+
+## New Feature and Plannings
+
+Add a pyGame Wizard guiding through the workflow
+Add the DSPyGEn code_master_retriever and Code - RAG - Open up to select what DBs also store code / hot code composables to remote offer (SaaS) maybe by hot wallets for micro payments TBD / composable smart contracts. 
+Add terms and conditions for each code_snippet - Ricardian Contracts - Hoare Logics?
+Tokenize code_snippets of value and allow value chains / virtual supply chains / PoC for enterprise code value co-creation ...
 
 ## Contributing
 

@@ -104,6 +104,7 @@ def process_step(step_class, task_description):
             print("Code executed successfully.")
             code_snippet_ok_list.append(code_snippet)
             error = "ok"
+            # TODO Check Definition of Done
             #return code_snippet_ok_list
         print(f"Error: {error}")
         rfc = get_user_rfc(error)
@@ -124,7 +125,9 @@ def build_final_game_from(code_snippet_ok_list):
 def main():
     """Main function"""
     #init_dspy(lm_class=Groq, max_tokens=1000, model="llama3-70b-8192") #, temperature=0.002)
-    init_ol(model="phi3:instruct", max_tokens=4000, base_url="http://localhost:11434", timeout=200 )#temperature=0.002, timeout=200)
+    #init_ol(model="phi3:instruct", max_tokens=4000, base_url="http://localhost:11434", timeout=200 )#temperature=0.002, timeout=200)
+    init_ol(model="qwen2:7b-instruct", max_tokens=4000, base_url="http://localhost:11434", timeout=200 )#temperature=0.002, timeout=200)
+
 
     pygame_topic = "composable architecture Tetris pygame"
 

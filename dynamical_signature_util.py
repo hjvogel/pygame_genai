@@ -1,4 +1,5 @@
 #dynamical_signature_util.py
+# Supports DSL in YAML file format - see DSPyGEN DSL & Workflow implentations
 import importlib
 import dspy
 from dspygen.dsl.dsl_pydantic_models import SignatureDSLModel, GenSignatureModel
